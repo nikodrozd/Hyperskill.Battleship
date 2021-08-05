@@ -38,6 +38,7 @@ public class Main {
     public static void shipsPlaysment(Player player) {
         System.out.println(player.getName() + ", place your ships on the game field");
         System.out.println();
+        System.out.println();
         printBattleField(player.getBattleField());
         for (Map.Entry<String, Ship> ship : player.getShipsList().entrySet()) {
             System.out.println();
